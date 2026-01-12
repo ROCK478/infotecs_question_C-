@@ -22,18 +22,18 @@
 2. Сборка проекта
 
 ```bash
-make ```
+make 
 
 3. Запуск проекта со значениями по умолчанию (log.txt, middle)
 
-```bash
+bash
 
-make run```
+make run
 
 4. Приложение можно запускать со своими начальными параметрами
 
-```bash
+bash
 
-make run filename.txt low```
+make run filename.txt low
 
 Допустимые уровни приоритета: 1/low, 2/middle, 3/high
